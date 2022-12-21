@@ -10,20 +10,26 @@
 
 * [Sigs](types-and-fields/sigs.md)
 
+## Uncategorized
+
+* [Electrum](uncategorized/electrum.md)
+* [Constants & Keywords](uncategorized/constants-and-keywords.md)
+
 ## Constraints
 
 * [Constraints](constraints/constraints.md)
 
-***
+## Built-ins
 
-* [Bounds](bounds.md)
-* [Concrete Instance Bounds](concrete-instance-bounds.md)
-* [Constants & Keywords](constants-and-keywords.md)
-* [Constants](constants.md)
-* [Electrum](electrum.md)
-* [Other Built-in Helpers](other-built-in-helpers.md)
-* [Integers](integers.md)
-* [Options](options.md)
-* [Running](running.md)
-* [Sterling Visualizer](sterling-visualizer.md)
-* [Testing](testing.md)
+* [Constants](built-ins/constants.md)
+* [Other Built-in Helpers](built-ins/other-built-in-helpers.md)
+* [Integers](built-ins/integers.md)
+
+## Running
+
+* [Running](running/running.md)
+* [Sterling Visualizer](running/sterling-visualizer.md)
+* [Testing](running/testing.md)
+* [Options](running/options.md)
+* [Bounds](running/bounds.md)
+* [Concrete Instance Bounds](running/concrete-instance-bounds.md)
