@@ -21,23 +21,4 @@ Students progress through this language hierarchy as new concepts are introduced
 _The table of Contents is not accurately imported -> For now, reference the sidebar for the Table of Contents!_
 {% endhint %}
 
-### ~~Table of Contents~~
-
-* ~~\[\[Installing Forge|Installation]]~~
-* ~~\[\[Types and Fields|Sigs]]~~
-* ~~\[\[Constraints|Constraints]]~~
-  * ~~\[\[Logical Operators|Constraints#Logical operators]]~~
-  * ~~\[\[Relational Operators|Constraints#relational-operators]]~~
-  * ~~Defining \[\[Predicates|Constraints#Predicates]] and \[\[Functions|Constraints#Functions]]~~
-  * ~~\[\[Quantifiers|Constraints#quantifiers]]~~
-  * ~~\[\[Temporal Operators (Electrum Mode)|Electrum]]~~
-* ~~Built-ins: Constants, Relations, and Helpers~~
-  * ~~\[\[Constants|Constants]]~~
-  * ~~\[\[Sequences and Reachability|ForgeHelpers]]~~
-  * ~~\[\[Integers|Integers]]~~
-* ~~Running~~
-  * ~~\[\[Running Your Model|Running]]~~
-  * ~~\[\[Visualizing Instances (including custom scripts)|Sterling Visualizer]]~~
-  * ~~\[\[Testing Your Model (Tests and Examples)|Testing]]~~
-  * ~~\[\[Forge Options|Options]]~~
-  * ~~\[\[Details on Bounds|Bounds]] (and \[\[Instance Bounds|Concrete Instance Bounds]])~~
+~~~~

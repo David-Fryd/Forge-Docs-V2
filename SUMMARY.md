@@ -21,15 +21,15 @@
 
 ## Built-ins
 
-* [Constants](built-ins/constants.md)
-* [Other Built-in Helpers](built-ins/other-built-in-helpers.md)
-* [Integers](built-ins/integers.md)
+* [Constants](constants.md)
+* [Other Built-in Helpers](other-built-in-helpers.md)
+* [Integers](integers.md)
 
 ## Running
 
-* [Running](running/running.md)
-* [Sterling Visualizer](running/sterling-visualizer.md)
-* [Testing](running/testing.md)
-* [Options](running/options.md)
-* [Bounds](running/bounds.md)
-* [Concrete Instance Bounds](running/concrete-instance-bounds.md)
+* [Running](running.md)
+* [Sterling Visualizer](sterling-visualizer.md)
+* [Testing](testing.md)
+* [Options](options.md)
+* [Bounds](bounds.md)
+* [Concrete Instance Bounds](concrete-instance-bounds.md)
