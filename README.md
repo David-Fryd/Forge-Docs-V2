@@ -22,6 +22,7 @@ Students progress through this language hierarchy as new concepts are introduced
   * [x] Fields Basic
   * [ ] Elaborate 'Types' on Sigs Page
   * [ ] Provide Clearer Description for 'Field Multiplicity' on Sigs Page
+  * [ ] Provide Clearer Context for "Low level details" - seems out of place and confusing. Maybe move it in addition to expanding upon it
 * [ ] Provide Description for 'Arity' on Sigs Page (I would even consider adding a whole new page/entry for 'Arity' since its a fundamental concept that will also appear in certain error messages and such)
 * [ ] ...
 * [ ] Go through the rest of the pages and expand this TODO list
