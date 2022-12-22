@@ -8,17 +8,16 @@ Forge is a lightweight modeling language, similar to [Alloy](https://alloytools.
 
 Students progress through this language hierarchy as new concepts are introduced in class; this lets the course avoid a steep language-learning curve andcover important practical material earlier than would otherwise be possible.
 
+\
+\
+
+
 {% hint style="danger" %}
-## The original documentation is in serious need of hierarchical redefinitions and better contextual explanation.
+#### The original documentation is in serious need of hierarchical redefinitions and better contextual explanation
 {% endhint %}
 
-#### As I was traversing the documentation and porting over structure, I made some notes about technical terms that I found were unexplained/non-obvious
-
-* what is a built-in?
-* TODO: Add danger about using + in Integer operations
-
-{% hint style="warning" %}
-_The table of Contents is not accurately imported -> For now, reference the sidebar for the Table of Contents!_
-{% endhint %}
+* [ ] ...
+* [ ] TODO: What is a "built-in"?
+* [ ] ...
 
 ~~~~
