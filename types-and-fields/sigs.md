@@ -11,13 +11,14 @@ A `sig` can also have one or more _fields_, which define relationships between t
 ```
 sig <name> {
     <field>,
+    <field>,
     ...
     <field>
 }
 ```
 
 {% hint style="info" %}
-**Syntax Note**: Ensure that there is a common after every field except for the last one. This is a common source of compilation errors when first defining a model!
+**Syntax Note**: Ensure that there is a comma after every field except for the last one. This is a common source of compilation errors when first defining a model!
 {% endhint %}
 
 ## Fields
@@ -26,11 +27,48 @@ Each _field_ in a `sig` has:
 
 * a _**name**_;
 * a [_**multiplicity**_](sigs.md#field-multiplicity) (`set`, `one`, `lone`, `pfunc`, or `func`);
-* a _**type**_.
+* a [_**type**_](sigs.md#types).
 
+Put together, a field takes the form:\
+**`name: multiplicity type`**
+
+{% tabs %}
+{% tab title="Example: Sig, One Field" %}
 #### Example: Basic Sig with Fields (Linked List):
 
 A model of a circularly-linked list might have a `sig` called `Node`. `Node` might then have a field `next: one Node` to represent the contents of every `Node`'s `next` reference. We use `one` here since every `Node` has exactly one successor.&#x20;
+
+```
+sig Node {
+    next: one Node
+}
+```
+{% endtab %}
+
+{% tab title="Example: Sig, Multiple Fields" %}
+#### Example: Basic Sig with Fields (Binary Tree):
+
+A model of a binary tree might have a `sig` called `Node`. `Node` might then have two fields, `next: one Node` to represent the contents of every `Node`'s `next` reference. We use `one` here since every `Node` has exactly one successor.&#x20;
+
+```
+sig Node {
+    left: lone Node,
+    right: lone Node,
+    val: one Int
+}
+```
+
+{% hint style="info" %}
+**`Int`** is a type provided by Forge. Read more about [valid types](sigs.md#types), and [Integers in Forge](../integers.md)
+{% endhint %}
+{% endtab %}
+
+{% tab title="Example: Sig, No Fields" %}
+A model of a family might have a `sig`&#x20;
+{% endtab %}
+{% endtabs %}
+
+
 
 ### Field Multiplicity
 
@@ -48,10 +86,12 @@ Given a higher-arity field `f` with type `A -> ... -> Y -> Z`, multiplicities co
 
 Fields declared as `pfunc` are analogous to maps or dictionaries in an object-oriented programming language: some keys may not map to values, but if a key is mapped it is mapped to exactly one value.
 
-### Valid Types
+### Types
 
 {% hint style="danger" %}
-**TODO: Fields can be other Sigs..., "Built-Ins"\*?, ... etc, Maybe have that on another page?...**
+**TODO: Fields can be other Sigs..., "Built-Ins"\*?, Int..., ... etc, Maybe have that on another page?...**\
+****\
+**Basically, wtf is a type**
 {% endhint %}
 
 ### Low-Level Details
@@ -70,7 +110,7 @@ is internally represented as a relation named `myField` of type `A -> A -> B`.
 
 Sigs may inherit from other sigs via the `extends` keyword:
 
-```
+```clike
 sig Cat {
     favoriteFood: one Food
 }
