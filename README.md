@@ -6,14 +6,12 @@ Forge is a lightweight modeling language, similar to [Alloy](https://alloytools.
 * **Forge** (`#lang forge`), an extension of Frglet to include relations and relational operators;
 * **Temporal Forge**, an extension of Forge to include linear-temporal operators (akin to Alloy 6 or [Electrum](https://github.com/haslab/Electrum)).
 
-Students progress through this language hierarchy as new concepts are introduced in class; this lets the course avoid a steep language-learning curve and cover important practical material earlier than would otherwise be possible.
-
-\
-\
+Students progress through this language hierarchy as new concepts are introduced in class; this lets the course avoid a steep language-learning curve and cover important practical material earlier than would otherwise be possible.\
 
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 #### The original documentation is in need of hierarchical refactoring and better contextual explanations. _(i.e. Better section names - "Built-In" = ?...)_&#x20;
 {% endhint %}
 
-~~~~
+
+
