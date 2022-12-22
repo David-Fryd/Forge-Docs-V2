@@ -106,9 +106,9 @@ Fields declared as `pfunc` are analogous to maps or dictionaries in an object-or
 ### Types
 
 {% hint style="danger" %}
-**TODO: Fields can be other Sigs..., "Built-Ins"\*?, Int..., ... etc, Maybe have that on another page?...**\
-****\
-**Basically, what is a type?**
+**TODO:** What is a type? What are valid types? What is a "built-in"? Int? ...\
+\
+Perhaps have types on another page/entry?
 {% endhint %}
 
 ### Low-Level Details
