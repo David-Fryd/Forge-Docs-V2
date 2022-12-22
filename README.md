@@ -16,6 +16,7 @@ Students progress through this language hierarchy as new concepts are introduced
 {% hint style="danger" %}
 **TODO:**&#x20;
 
+* [ ] Add general overview page - what is a model? what is a predicate? What is an instance? What is a predicate? Very brief high level overview page (all material obviously covered in class, but supplementary nonetheless- maybe even pull from class notes?)
 * [ ] Refactor Sigs page v1
   * [x] Sigs Basic
   * [x] Fields Basic
