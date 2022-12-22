@@ -137,9 +137,9 @@ sig ProgrammerCat extends Cat {}
 
 This means that any `ProgrammerCat` object is also a `Cat` object, and so will have a `favoriteFood` field.
 
-### Warning: Sigs are disjoint by default!
-
-Any two sigs `A` and `B` will never contain an object in common unless one is a descendent of the other. So in this example, no `Cat` can ever be both a `ProgrammerCat` and `ActorCat`.
+{% hint style="warning" %}
+**WARNING: Sigs are Disjoint by Default!** Any two sigs `A` and `B` will never contain an object in common unless one is a descendent of the other. So in this example, no `Cat` can ever be both a `ProgrammerCat` and `ActorCat`.
+{% endhint %}
 
 ## Singleton and Maybe Sigs
 
