@@ -14,6 +14,12 @@ Students progress through this language hierarchy as new concepts are introduced
 {% endhint %}
 
 {% hint style="danger" %}
-**TODO: Elaborate Types in Sigs**
+**TODO:**&#x20;
+
+* [ ] **Elaborate 'Types' on Sigs Page**
+* [ ] **Provide Description for 'Arity' on Sigs Page**
+* [ ] **...**
+* [ ] **Go through the rest of the pages and expand this TODO list**
+* [ ] **Refactor/Categorize rest of the pages more intuitively**&#x20;
 {% endhint %}
 
