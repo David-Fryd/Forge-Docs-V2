@@ -16,7 +16,11 @@ Students progress through this language hierarchy as new concepts are introduced
 {% hint style="danger" %}
 **TODO:**&#x20;
 
-* [ ] Elaborate 'Types' on Sigs Page
+* [ ] Refactor Sigs page v1
+  * [x] Sigs Basic
+  * [x] Fields Basic
+  * [ ] Elaborate 'Types' on Sigs Page
+  * [ ] Provide Clearer Description for 'Field Multiplicity' on Sigs Page
 * [ ] Provide Description for 'Arity' on Sigs Page
 * [ ] ...
 * [ ] Go through the rest of the pages and expand this TODO list
