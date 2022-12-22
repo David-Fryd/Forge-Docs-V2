@@ -3,21 +3,34 @@
 _Sigs_ are the basic building block of any model in Forge. You can think of a `sig` as analogous to a class in an object-oriented programming language. You can declare a `sig` in the following way:
 
 ```
+sig <name> {}
+```
+
+A `sig` can also have one or more _fields_, which define relationships between that `sig` and other `sig`s and types.
+
+```
 sig <name> {
     <field>,
-    <field> ...
+    ...
+    <field>
 }
 ```
+
+{% hint style="info" %}
+**Syntax Note**: Ensure that there is a common after every field except for the last one. This is a common source of compilation errors when first defining a model!
+{% endhint %}
 
 ## Fields
 
 Each _field_ in a `sig` has:
 
-* a name;
-* a _multiplicity_ (`set`, `one`, `lone`, `pfunc`, or `func`);
-* a type.
+* a _**name**_;
+* a [_**multiplicity**_](sigs.md#field-multiplicity) (`set`, `one`, `lone`, `pfunc`, or `func`);
+* a _**type**_.
 
-E.g. a model of a circularly-linked list might have a `sig` called `Node`. `Node` might then have a field `next: one Node` to represent the contents of every `Node`'s `next` reference. We use `one` here since every `Node` has exactly one successor.
+#### Example: Basic Sig with Fields (Linked List):
+
+A model of a circularly-linked list might have a `sig` called `Node`. `Node` might then have a field `next: one Node` to represent the contents of every `Node`'s `next` reference. We use `one` here since every `Node` has exactly one successor.&#x20;
 
 ### Field Multiplicity
 
@@ -35,9 +48,15 @@ Given a higher-arity field `f` with type `A -> ... -> Y -> Z`, multiplicities co
 
 Fields declared as `pfunc` are analogous to maps or dictionaries in an object-oriented programming language: some keys may not map to values, but if a key is mapped it is mapped to exactly one value.
 
+### Valid Types
+
+{% hint style="danger" %}
+**TODO: Fields can be other Sigs..., "Built-Ins"\*?, ... etc, Maybe have that on another page?...**
+{% endhint %}
+
 ### Low-Level Details
 
-Forge's engine translates each field `f` to a relation with arity $1+arity(f)$. E.g.,
+Forge's engine translates each field `f` to a relation with arity _1+arity(f)_. E.g.,
 
 ```
 sig A {

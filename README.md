@@ -13,5 +13,7 @@ Students progress through this language hierarchy as new concepts are introduced
 #### The original documentation is in need of hierarchical refactoring and better contextual explanations. _(i.e. Better section names - "Built-In" = ?...)_&#x20;
 {% endhint %}
 
-
+{% hint style="danger" %}
+**TODO: Elaborate Types in Sigs**
+{% endhint %}
 

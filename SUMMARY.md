@@ -6,13 +6,10 @@
 
 * [Installation](getting-started/installation.md)
 
-## The Basics
-
-* [Sigs](the-basics/sigs.md)
-
 ## Types and Fields
 
 * [Sigs](types-and-fields/sigs.md)
+* [Sigs\_Legacy](types-and-fields/sigs\_legacy.md)
 
 ## Uncategorized
 
@@ -37,3 +34,5 @@
 * [Options](options.md)
 * [Bounds](bounds.md)
 * [Concrete Instance Bounds](concrete-instance-bounds.md)
+
+## The Basics
