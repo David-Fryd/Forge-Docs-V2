@@ -33,11 +33,11 @@ Put together, a field takes the form:
 
 **`name: multiplicity type`**
 
-&#x20;
+#### Examples:
 
 {% tabs %}
-{% tab title="Example: Sig, One Field" %}
-#### Example: Basic Sig with Fields (Linked List):
+{% tab title="Sig w/ one Field" %}
+#### Example - Basic Sig with Fields (Linked List):
 
 A model of a circularly-linked list might have a `sig` called `Node`. `Node` might then have a field `next: one Node` to represent the contents of every `Node`'s `next` reference. We use `one` here since every `Node` has exactly one successor.&#x20;
 
@@ -48,8 +48,8 @@ sig Node {
 ```
 {% endtab %}
 
-{% tab title="Example: Sig, Multiple Fields" %}
-#### Example: Basic Sig with Fields (Binary Tree):
+{% tab title="Sig w/ Multiple Fields" %}
+#### Example - Basic Sig with Fields (Binary Tree):
 
 A model of a binary tree might have a `sig` called `Node`. `Node` might then have three fields:
 
@@ -69,8 +69,19 @@ sig Node {
 {% endhint %}
 {% endtab %}
 
-{% tab title="Example: Sig, No Fields" %}
-A model of a family might have a `sig`&#x20;
+{% tab title="Sig w/ No Fields" %}
+#### Example - Basic Sig without Fields:
+
+Not every __ `sig` in a model needs to have fields to be a useful part of the model! `sig`s with no fields are often used in conjunction with other `sig`s that reference no-field `sig`s.
+
+One such example might look like thisL
+
+```
+sig Student {}
+sig Group {
+    members: set Student
+}
+```
 {% endtab %}
 {% endtabs %}
 
