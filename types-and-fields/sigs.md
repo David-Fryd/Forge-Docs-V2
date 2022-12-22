@@ -29,8 +29,11 @@ Each _field_ in a `sig` has:
 * a [_**multiplicity**_](sigs.md#field-multiplicity) (`set`, `one`, `lone`, `pfunc`, or `func`);
 * a [_**type**_](sigs.md#types).
 
-Put together, a field takes the form:\
+Put together, a field takes the form:
+
 **`name: multiplicity type`**
+
+&#x20;
 
 {% tabs %}
 {% tab title="Example: Sig, One Field" %}
@@ -48,7 +51,10 @@ sig Node {
 {% tab title="Example: Sig, Multiple Fields" %}
 #### Example: Basic Sig with Fields (Binary Tree):
 
-A model of a binary tree might have a `sig` called `Node`. `Node` might then have two fields, `next: one Node` to represent the contents of every `Node`'s `next` reference. We use `one` here since every `Node` has exactly one successor.&#x20;
+A model of a binary tree might have a `sig` called `Node`. `Node` might then have three fields:
+
+* `left: lone Node` and `right: lone Node` to represent the `Node`'s children. We use `lone` here since the left/right child can either be empty, or contain exactly one `Node`.
+* `val: one Int` to represent the value of each Node, where we have decided that every `Node` should have an Integer value. We use `one` here because each `Node` should have exactly one Integer as its value.
 
 ```
 sig Node {
@@ -59,7 +65,7 @@ sig Node {
 ```
 
 {% hint style="info" %}
-**`Int`** is a type provided by Forge. Read more about [valid types](sigs.md#types), and [Integers in Forge](../integers.md)
+**`Int`** is a type provided by Forge. Read more about [valid types](sigs.md#types), and [Integers in Forge](../integers.md).
 {% endhint %}
 {% endtab %}
 
