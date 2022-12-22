@@ -31,7 +31,9 @@ Each _field_ in a `sig` has:
 
 Put together, a field takes the form:
 
-**`name: multiplicity type`**
+```
+name: multiplicity type
+```
 
 #### Examples:
 
