@@ -16,10 +16,10 @@ Students progress through this language hierarchy as new concepts are introduced
 {% hint style="danger" %}
 **TODO:**&#x20;
 
-* [ ] **Elaborate 'Types' on Sigs Page**
-* [ ] **Provide Description for 'Arity' on Sigs Page**
-* [ ] **...**
-* [ ] **Go through the rest of the pages and expand this TODO list**
-* [ ] **Refactor/Categorize rest of the pages more intuitively**&#x20;
+* [ ] Elaborate 'Types' on Sigs Page
+* [ ] Provide Description for 'Arity' on Sigs Page
+* [ ] ...
+* [ ] Go through the rest of the pages and expand this TODO list
+* [ ] Refactor/Categorize rest of the pages more intuitively&#x20;
 {% endhint %}
 
