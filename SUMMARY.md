@@ -6,6 +6,10 @@
 
 * [Installation](getting-started/installation.md)
 
+## The Basics
+
+* [Sigs](the-basics/sigs.md)
+
 ## Types and Fields
 
 * [Sigs](types-and-fields/sigs.md)
