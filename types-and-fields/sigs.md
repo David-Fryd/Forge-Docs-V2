@@ -26,7 +26,7 @@ sig <name> {
 Each _field_ in a `sig` has:
 
 * a _**name**_;
-* a [_**multiplicity**_](sigs.md#field-multiplicity) (`set`, `one`, `lone`, `pfunc`, or `func`);
+* a [_**multiplicity**_](sigs.md#multiplicity) (`set`, `one`, `lone`, `pfunc`, or `func`);
 * a [_**type**_](sigs.md#types).
 
 Put together, a field takes the form:
@@ -87,7 +87,7 @@ sig Group {
 {% endtab %}
 {% endtabs %}
 
-### Field Multiplicity
+### Multiplicity
 
 Given a field `f` with type `A`, the set of possible multiplicities is:
 
@@ -108,7 +108,7 @@ Fields declared as `pfunc` are analogous to maps or dictionaries in an object-or
 {% hint style="danger" %}
 **TODO: Fields can be other Sigs..., "Built-Ins"\*?, Int..., ... etc, Maybe have that on another page?...**\
 ****\
-**Basically, wtf is a type**
+**Basically, what is a type?**
 {% endhint %}
 
 ### Low-Level Details
