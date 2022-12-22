@@ -74,18 +74,16 @@ sig Node {
 
 Not every __ `sig` in a model needs to have fields to be a useful part of the model! `sig`s with no fields are often used in conjunction with other `sig`s that reference no-field `sig`s.
 
-One such example might look like thisL
+One such example might look like this:
 
 ```
 sig Student {}
 sig Group {
-    members: set Student
+    member: set Student
 }
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 ### Field Multiplicity
 
